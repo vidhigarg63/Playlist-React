@@ -1,0 +1,55 @@
+[
+    {
+        "id": 111,
+        "playlist_id": 1,
+        "title": "Default",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 101
+
+    },
+
+    {
+        "id": 121,
+        "playlist_id": 2,
+        "title": "Acoustique",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 102
+    },
+    {
+        "id": 131,
+        "playlist_id": 3,
+        "title": "Classique",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 103
+    },
+    {
+        "id": 123,
+        "playlist_id": 4,
+        "title": "Country",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 104
+    },
+    {
+        "id": 132,
+        "playlist_id": 5,
+        "title": "Metal",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 105
+    },
+    {
+        "id": 141,
+        "playlist_id": 6,
+        "title": "Pop/Dance",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 106
+    },
+
+    {
+        "id": 142,
+        "playlist_id": 7,
+        "title": "Rock",
+        "uri":"7lEptt4wbM0yJTvSG5EBof",
+        "master_id": 107
+
+    }
+]

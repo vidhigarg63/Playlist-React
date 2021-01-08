@@ -1,0 +1,22 @@
+GET http://localhost:3001/tracks
+Accept: application/json
+
+###
+GET http://localhost:3001/playlist
+Accept: application/json
+
+###
+# asking for specific user with ID
+POST http://localhost:3001/tracks
+Content-Type: application/json
+
+{
+    "playlist_id": "Pop/Dance",
+    "title": "Apeksha",
+    "uri": "spotify/song/eminem"
+}
+
+###
+DELETE  http://localhost:3001/tracks/26
+Content-Type: application/json
+

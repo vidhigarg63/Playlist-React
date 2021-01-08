@@ -1,0 +1,39 @@
+.searchDiv::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Photos/records.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    filter: blur(2px);
+    position: absolute;
+    top: 0;
+}
+
+.searchDiv{
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    align-items: center;
+    
+
+    input[type="text"]{
+        // position: absolute;
+        width: 30%;
+        padding: 14px;
+        border-radius: 60px;
+        border: none;
+        outline: none;
+        z-index: 1;
+    }
+    .button{
+        position: relative;
+        left: -200%;
+        color: black;
+        z-index: 2;
+
+    }
+}
+
+

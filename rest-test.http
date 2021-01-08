@@ -1,0 +1,25 @@
+GET http://Localhost:3001/
+Accept: text/html
+
+####
+
+GET http://Localhost:3001/tracks
+Accept: : application/json
+
+
+####
+
+POST http://localhost:3001/POST
+Content-Type: application/json
+
+{
+    "id": 99,
+    "name": "reza"
+}
+
+###
+
+POST http://localhost:3001/POST
+Content-Type: application/x-www-form-urlencoded
+
+id=99&name=reza

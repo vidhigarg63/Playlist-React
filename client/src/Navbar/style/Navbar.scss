@@ -1,0 +1,48 @@
+@import '../../style/mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+
+$headerColor : rgba(200,200,200,.65);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+
+header{
+    height: 10vh;
+    background-color: $headerColor;
+    color: black;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    .fab{
+        flex: 1;
+        padding-left: 30px;
+        color: black;
+        span{
+            margin-left: 5px;
+        }
+    }
+    nav{
+        flex: 2;
+        ul{
+            list-style: none;   
+            display: flex;
+            justify-content: center; 
+            li{
+                padding: 0px 40px;
+                color: black;
+                font-size: 22px;
+                font-family: 'Cabin', sans-serif;
+                &:hover{
+                    color: darkgreen;
+                }
+            }
+        }
+    }
+}
